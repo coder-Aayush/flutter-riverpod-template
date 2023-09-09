@@ -1,0 +1,26 @@
+name: { { project_name.snakeCase() } }
+description: { { { description } } }
+version: 0.0.1+1
+
+publish_to: none
+
+environment:
+  sdk: ">=3.0.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # env configurations
+  envied: ^0.3.0+3
+
+  # device preview
+  device_preview: ^1.1.0
+  
+
+dev_dependencies:
+  very_good_analysis: ^5.1.0
+
+  # env configurations generation
+  envied_generator: ^0.3.0+3
+
+  
